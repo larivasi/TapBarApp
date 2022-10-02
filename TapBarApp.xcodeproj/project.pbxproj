@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B169ED0D28EA16DF00BFC34F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169ED0C28EA16DF00BFC34F /* ThirdViewController.swift */; };
+		B169ED0F28EA17E400BFC34F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169ED0E28EA17E400BFC34F /* TabBarViewController.swift */; };
 		B1739BD728EA111F0053EF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BD628EA111F0053EF8C /* AppDelegate.swift */; };
 		B1739BD928EA111F0053EF8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BD828EA111F0053EF8C /* SceneDelegate.swift */; };
-		B1739BDB28EA111F0053EF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BDA28EA111F0053EF8C /* ViewController.swift */; };
+		B1739BDB28EA111F0053EF8C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BDA28EA111F0053EF8C /* StartViewController.swift */; };
 		B1739BDE28EA111F0053EF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1739BDC28EA111F0053EF8C /* Main.storyboard */; };
 		B1739BE028EA11200053EF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1739BDF28EA11200053EF8C /* Assets.xcassets */; };
 		B1739BE328EA11200053EF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1739BE128EA11200053EF8C /* LaunchScreen.storyboard */; };
+		B1739BEB28EA13CD0053EF8C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BEA28EA13CD0053EF8C /* FirstViewController.swift */; };
+		B1739BED28EA13D50053EF8C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1739BEC28EA13D50053EF8C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B169ED0C28EA16DF00BFC34F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B169ED0E28EA17E400BFC34F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		B1739BD328EA111F0053EF8C /* TapBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1739BD628EA111F0053EF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1739BD828EA111F0053EF8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1739BDA28EA111F0053EF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1739BDA28EA111F0053EF8C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		B1739BDD28EA111F0053EF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1739BDF28EA11200053EF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1739BE228EA11200053EF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1739BE428EA11200053EF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1739BEA28EA13CD0053EF8C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B1739BEC28EA13D50053EF8C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				B1739BD628EA111F0053EF8C /* AppDelegate.swift */,
 				B1739BD828EA111F0053EF8C /* SceneDelegate.swift */,
-				B1739BDA28EA111F0053EF8C /* ViewController.swift */,
+				B1739BDA28EA111F0053EF8C /* StartViewController.swift */,
+				B169ED0E28EA17E400BFC34F /* TabBarViewController.swift */,
+				B169ED0C28EA16DF00BFC34F /* ThirdViewController.swift */,
+				B1739BEA28EA13CD0053EF8C /* FirstViewController.swift */,
+				B1739BEC28EA13D50053EF8C /* SecondViewController.swift */,
 				B1739BDC28EA111F0053EF8C /* Main.storyboard */,
 				B1739BDF28EA11200053EF8C /* Assets.xcassets */,
 				B1739BE128EA11200053EF8C /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1739BDB28EA111F0053EF8C /* ViewController.swift in Sources */,
+				B1739BDB28EA111F0053EF8C /* StartViewController.swift in Sources */,
 				B1739BD728EA111F0053EF8C /* AppDelegate.swift in Sources */,
 				B1739BD928EA111F0053EF8C /* SceneDelegate.swift in Sources */,
+				B1739BED28EA13D50053EF8C /* SecondViewController.swift in Sources */,
+				B169ED0F28EA17E400BFC34F /* TabBarViewController.swift in Sources */,
+				B169ED0D28EA16DF00BFC34F /* ThirdViewController.swift in Sources */,
+				B1739BEB28EA13CD0053EF8C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +318,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.larinvasyl.TapBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.larinvasyl.TapBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
